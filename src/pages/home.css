@@ -1,0 +1,9 @@
+body{
+    background-color: #222222;
+    color: #f9f9f9;
+  }
+.home{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3vw;
+}

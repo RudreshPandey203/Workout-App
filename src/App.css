@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  justify-content: center;
+  overflow-x: hidden;
+}
+.pages{
+  width: 80vw;
+  justify-content: center;
+  display:inline;
+}

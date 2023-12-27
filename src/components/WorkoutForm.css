@@ -1,0 +1,44 @@
+.create{
+    position: sticky;
+    width: 86%;
+    padding: 7%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+h3{
+    text-decoration: solid;
+    font-size: 2rem;
+    position: absolute;
+    top:20px;
+}
+.create > label{
+    font-size: 1.1rem;
+    position: relative;
+    padding:1%;
+}
+.create > input{
+    font-size: 1.3rem;
+    padding:2%;
+    margin-bottom: 3%;
+}
+.buttonShift > button{
+    height: 50px;
+    width: 200px;
+    background-color: cyan;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+button:hover{
+    background-color: rgba(0, 255, 255, 0.809);
+    transition: all;
+}
+.buttonShift{
+    text-align: center;
+}
+.error{
+    background-color: rgb(255, 163, 163);
+    border-color: red;
+}

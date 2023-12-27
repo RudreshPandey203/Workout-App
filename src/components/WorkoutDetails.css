@@ -1,0 +1,30 @@
+
+.workoutDetails:hover{
+    background-color: #181818;
+}
+h4{
+    font-size: 1.5rem;
+    padding: 5px;
+    color: cyan;
+}
+p{
+    padding:3px;
+    padding-left: 5px;
+}
+span{
+    cursor: pointer;
+    background-color: cyan;
+    color:#111111;
+    height: 20px;
+    padding: 2px;
+    border-radius: 10px;
+}
+.workoutBox{
+    display: flex;
+    background-color: #111111;
+    margin:2%;
+    padding: 1.5% 4%;
+    text-align: start;
+    border-radius: 10px;
+    justify-content: space-between;
+}
